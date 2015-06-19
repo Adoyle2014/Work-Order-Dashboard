@@ -1,0 +1,8 @@
+Add Vendors functionality - COMPLETE
+Add alert confirms to delete functions
+Refactor Customer and Vendor functions and code
+Create Tables table
+Create Table C.R.U.D.
+Create Parts table
+Create Tables, Parts DB relationship
+Create Parts C.R.U.D.

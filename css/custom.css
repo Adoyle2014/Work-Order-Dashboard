@@ -1,0 +1,137 @@
+/*------ Fonts
+Titles
+font-family: 'Michroma', sans-serif;
+
+Body Text
+font-family: 'Comfortaa', cursive;
+-------*/
+
+body {
+	background-color: #EDEDED;
+	color: #004EA3;
+	font-family: 'Comfortaa', Cambria;
+	width: 100%;
+}
+
+h1, h2, h3, th {
+	font-family: 'Michroma', sans-serif;
+}
+
+th, td {
+	text-align: center !important;
+}
+
+.brand, .title {
+	text-align: center;
+}
+
+label {
+	font-weight: bold;	
+}
+
+.add-btn, .clear-btn, .save-btn {
+	margin-top: 10px;
+	color: #fff !important;
+}
+
+.add-icon {
+	display: none;
+	margin-top: 2px;
+	cursor: pointer;
+	color: #008cba
+	transition-property: color;
+	transition-duration: 300ms;
+	transition-delay: initial;
+	
+}
+
+.add-icon:hover {
+	  color: #007095;
+}
+
+table tr th, table tr td {
+	font-size: .8em !important;
+	padding: 5px !important;
+}
+
+ul li {
+	list-style: none;
+	font-size: .8em;
+}
+
+.button-group {
+	width: 170px;
+	margin: auto;
+	text-align: center;
+}
+
+.button-group a {
+	margin: auto;
+}
+
+#loaderImage {
+	display: none;
+	position: absolute;
+	top: 300px;
+	left: 58%;
+	width: 100px;	
+	margin: 50px auto 50px auto;
+}
+
+input, select, textarea {
+	color: #007095 !important;
+}
+
+.delete-btn {
+	color: #fff !important;
+	background-color: #ba6457 !important;
+	transition-property: background-color;
+	transition-duration: 300ms;
+	transition-delay: initial;
+}
+
+.delete-btn:hover {
+	background-color: #e22e16 !important;
+}
+
+label input {
+	color: #004EA3 !important;
+}
+
+.container {
+	margin-top: 1em;
+	width: 100%;
+}
+
+.main-content {
+	margin-top: 50px;
+}
+
+
+
+.side-nav {
+	
+	background-color: #c9c9c9;
+	height: 600px;
+	padding-top: 20px;
+	padding-right: 25px;
+	
+}
+
+.side-nav-btn, .save-btn {
+	background-color: #004EA3;
+	font-family: 'Michroma', sans-serif;
+}
+
+.view-edit-btn {
+	background-color: #004EA3;
+}
+
+.dashboard {
+	background-color: #c9c9c9;	
+	height: 600px;
+	padding-top: 20px;
+
+
+}
+

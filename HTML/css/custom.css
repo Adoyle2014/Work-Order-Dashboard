@@ -1,0 +1,95 @@
+/*------ Fonts
+Titles
+font-family: 'Michroma', sans-serif;
+
+Body Text
+font-family: 'Comfortaa', cursive;
+-------*/
+
+body {
+	background-color: #EDEDED;
+	color: #004EA3;
+	font-family: 'Comfortaa', Cambria;
+}
+
+h1, h2, h3, th {
+	font-family: 'Michroma', sans-serif;
+}
+
+label {
+	font-weight: bold;	
+}
+
+.add-btn, .clear-btn {
+	margin-top: 10px;
+	color: #fff !important;
+}
+
+table tr th, table tr td {
+	font-size: 15px;
+	padding: 5px;
+}
+
+ul li {
+	list-style: none;
+	font-size: 15px;
+}
+
+.button-group {
+	width: 140px;
+	margin: auto;
+	text-align: center;
+}
+
+.button-group a {
+	margin: auto;
+}
+
+#loaderImage {
+	display: none;
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	width: 100px;	
+	margin: 50px auto 50px auto;
+}
+
+input, select, textarea {
+	color: #007095 !important;
+}
+
+.delete-btn {
+	color: #fff !important;
+}
+
+label input {
+	color: #004EA3 !important;
+}
+
+.container {
+	margin-top: 1em;
+}
+
+.main-content {
+	margin-top: 50px;
+}
+
+.side-nav {
+	text-align: center;
+	background-color: #c9c9c9;
+	height: 600px;
+	padding-top: 20px;
+	
+}
+
+.side-nav-btn {
+	background-color: #004EA3;
+	font-family: 'Michroma', sans-serif;
+}
+
+.dashboard {
+	background-color: #c9c9c9;	
+	height: 600px;
+	padding-top: 20px;
+
+}
